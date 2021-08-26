@@ -1,0 +1,36 @@
+.topImg {
+    width: 100vw;
+    height: 91.3vh;
+}
+
+.headerContainer {
+    display: flex;
+    background: url('../../assets/truck1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 91.3vh;
+    width: 100vw;
+    justify-content: left;
+    align-items: center;
+}
+
+.headerText {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 40vw;
+    line-height: 30px;
+    text-shadow: 4px 2px 4px black;
+    text-align: center;
+    align-items: center;
+}
+
+.headerTitle {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.headerSubTitle {
+    width: 25vw;
+    text-align: center;
+}

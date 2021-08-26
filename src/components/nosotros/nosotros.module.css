@@ -1,0 +1,18 @@
+.containerNosotros {
+    display: flex;
+    flex-direction: column;
+}
+
+.nosotrosInfo {
+    font-size: 50px;
+    padding: 0 30px;
+}
+
+.tarjetas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
