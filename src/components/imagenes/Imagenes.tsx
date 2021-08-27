@@ -10,13 +10,13 @@ const Imagenes = () => {
     const [imagenes] = useState<string[]>([camion4, camion2, camion3, camion1])
 
     return (
-        <div className={styles.galleryContainer}>
+        <div id='imagenes' className={styles.galleryContainer}>
             <p className={styles.galleryTitle}>GALERIA DE IMAGENES</p>
             <Carousel className={styles.calecitaContainer}>
                 {
                     imagenes.map( image => (
-                    <div className={styles.calecitaContainer}>
-                        <img src={image} className={styles.calecita}/>
+                    <div key={image} className={styles.calecitaContainer}>
+                        <img src={image} className={styles.calecita} alt='imagen'/>
                     </div>))
                 }
             </Carousel>

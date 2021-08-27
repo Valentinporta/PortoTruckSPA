@@ -12,7 +12,7 @@ const Nosotros = () => {
     const viajes = 'Contamos con camiones 100% habilitados para soportar viajes de corta y larga distancia para poder cumplir con todos los requisitos de nuestros clientes.'
     
     return (
-        <div className={styles.containerNosotros}>
+        <div id='nosotros' className={styles.containerNosotros}>
             <p className={styles.nosotrosInfo}>Somos una empresa de transporte con mas de 10 años en el rubro con sede en San Pedro, Buenos Aires. Realizamos viajes para todo tipo de cargas y para todo el país.</p>
             <div className={styles.tarjetas}>
                 <Tarjeta icon={truck} title='Cargas generales' text={cargasGrales}/>

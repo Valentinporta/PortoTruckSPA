@@ -5,7 +5,7 @@ import './logo.module.css'
 const Logo = () => {
     return (
         <div className='container'>
-            <img src={logo} className='image'/>
+            <img src={logo} className='image' alt='logo'/>
         </div>
     )
 };

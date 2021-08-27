@@ -2,13 +2,20 @@
     display: flex;
     width: 100%;
     height: 80px;
-    background-color: rgb(231, 227, 227);
     text-align: center;
     align-items: center;
     justify-content: space-around;
     position: sticky;
     top: 0;
     z-index: 2;
+}
+
+.coloredBg {
+    background-color: rgb(231, 227, 227);
+}
+
+.transparentBg {
+ background-color: rgba(231, 227, 227, 0.5);
 }
 
 .navList {

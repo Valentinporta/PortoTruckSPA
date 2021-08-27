@@ -3,7 +3,7 @@ import styles from './inicio.module.css'
 
 const Inicio = () => {
     return (
-        <div className={styles.headerContainer}>
+        <div id='inicio' className={styles.headerContainer}>
             <div className={styles.headerText}>
                 <p className={styles.headerTitle}>PortoTruck SRL</p>
                 <div className={styles.headerSubTitle}>
