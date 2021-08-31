@@ -22,3 +22,8 @@
 .footerListItem {
     font-size: 20px;
 }
+
+.leaflet-container {
+    width: 50vw;
+    height: 30vh;
+}

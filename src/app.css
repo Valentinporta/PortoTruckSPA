@@ -4,3 +4,7 @@
     position: relative;
 }
 
+.leaflet-container {
+    width: 50vw;
+    height: 30vh;
+}
