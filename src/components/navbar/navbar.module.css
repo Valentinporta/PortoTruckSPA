@@ -15,7 +15,7 @@
 }
 
 .transparentBg {
- background-color: rgba(231, 227, 227, 0.5);
+    background-color: rgba(231, 227, 227, 0.5);
 }
 
 .navList {
@@ -24,6 +24,73 @@
 }
 
 .listItem {
-    padding-right: 20px;
+    padding-right: 10px;
     cursor: pointer;
+    padding-left: 10px;
+}
+
+.listItem:hover {
+    background-color: #bbb;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.hamburgerMenu {
+    display: none
+}
+
+@media screen and (max-width: 800px) {
+    /* .container {
+        position: relative;
+    } */
+
+    .navList {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        margin: 0;
+        padding-left: 0;
+        font-weight: bold;
+    }
+
+    .navList.active {
+        background-color: rgb(231, 227, 227);
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .listItem {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    .listItem:hover {
+        background-color: #bbb;
+        border-radius: 0;
+    }
+
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(25%, 50%)
+    }
+
+    .hamburgerMenu {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+    }
 }
