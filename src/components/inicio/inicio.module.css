@@ -31,7 +31,7 @@
 }
 
 .headerSubTitle {
-    margin-top: 150px;
+    margin-top: 100px;
     width: 25vw;
     text-align: center;
 }
@@ -43,6 +43,11 @@
 
     .headerText {
         justify-content: space-between;
+    }
+    
+    .headerSubTitle {
+        margin: 0;
+        width: 50vw;
     }
 }
 
@@ -61,5 +66,6 @@
 
     .headerSubTitle {
         width: 50vw;
+        margin: 0;
     }
 }
