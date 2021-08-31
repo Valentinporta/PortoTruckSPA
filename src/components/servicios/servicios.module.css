@@ -1,5 +1,10 @@
 .serviciosContainer {
-    height: 80vh;
+    /* height: 80vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
     background-color: black;
 }
 
@@ -16,14 +21,33 @@
     display: flex;
     text-align: left;
     color: #fff;
-    width: 40vw;
-    margin: 0 auto;
     line-height: 2;
     font-size: 20px;
-    justify-content: space-between;
+    /* justify-content: center; */
 }
 
 .serviciosImg {
     filter: invert(100%) sepia(3%) saturate(0%) hue-rotate(271deg) brightness(103%) contrast(103%);
     width: 200px;
+    padding: 0 10px;
+}
+
+.serviciosImg2 {
+    filter: invert(100%) sepia(3%) saturate(0%) hue-rotate(271deg) brightness(103%) contrast(103%);
+    width: 200px;
+    padding: 0 10px;
+    order: 1;
+}
+
+@media screen and (max-width: 850px) {
+    .serviciosText {
+        flex-direction: column;
+        order: 1;
+        align-items: center;
+        text-align: center;
+    }
+
+    .serviciosImg2 {
+        order: 0;
+    }
 }

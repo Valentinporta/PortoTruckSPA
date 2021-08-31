@@ -12,7 +12,7 @@ const Servicios = () => {
             <p className={styles.serviciosTitle}>Nuestra operación</p>
 
             <div className={styles.serviciosText}>
-                    <img src={truck} className={styles.serviciosImg} alt='cargas grales'/>
+                <img src={truck} className={styles.serviciosImg} alt='cargas grales'/>
                 <div style={{maxWidth: '500px'}}>
                     <h2>Cargas Generales</h2>
                     <p>{cargasGenerales}</p>
@@ -20,11 +20,11 @@ const Servicios = () => {
             </div>
 
             <div className={styles.serviciosText}>
+                <img src={danger} className={styles.serviciosImg2} alt='cargas peligrosas'/>
                 <div style={{maxWidth: '500px'}}>
                     <h2>Cargas Peligrosas</h2>
                     <p>{cargasPeligrosas}</p>
                 </div>
-                <img src={danger} className={styles.serviciosImg} alt='cargas peligrosas'/>
             </div>
 
             <div>
