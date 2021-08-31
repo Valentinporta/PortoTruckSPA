@@ -19,7 +19,7 @@
     flex-direction: column;
     color: white;
     width: 40vw;
-    line-height: 30px;
+    height: 100%;
     text-shadow: 4px 2px 4px black;
     text-align: center;
     align-items: center;
@@ -31,6 +31,35 @@
 }
 
 .headerSubTitle {
+    margin-top: 150px;
     width: 25vw;
     text-align: center;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1400px) {
+    .headerContainer {
+        justify-content: center;
+    }
+
+    .headerText {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .headerContainer {
+        justify-content: center;
+    }
+
+    .headerText {
+        justify-content: flex-end;
+    }
+
+    .headerTitle {
+        display: none;
+    }
+
+    .headerSubTitle {
+        width: 50vw;
+    }
 }
