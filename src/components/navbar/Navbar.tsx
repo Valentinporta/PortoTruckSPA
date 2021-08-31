@@ -5,6 +5,7 @@ import { Link } from 'react-scroll'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
+    const [clicked, setClicked] = useState(false)
     
     const changeBg = () => {
         let top = window.scrollY
@@ -15,16 +16,24 @@ const Navbar = () => {
         }
     }
 
+    const handleClick = () => {
+        setClicked(prev => !prev)
+    }
+
     window.addEventListener('scroll', changeBg)
 
     return (
         <div className={nav ? `${styles.container} ${styles.coloredBg}` : `${styles.container} ${styles.transparentBg}`}>
-            <div>
+            <div className={styles.logo}>
                 <Logo />
             </div>
 
-            <ul className={styles.navList}>
-                <li className={styles.listItem}><Link to='inicio' spy={true} smooth={true}><p>Inicio</p></Link></li>
+            <div className={styles.hamburgerMenu} onClick={handleClick}>
+                <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+            </div>
+
+            <ul className={clicked ? `${styles.navList} ${styles.active}` : styles.navList}>
+                <li className={styles.listItem}><Link to='inicio' spy={true} smooth={true}><p style={{textAlign: 'center'}}>Inicio</p></Link></li>
                 <li className={styles.listItem}><Link to='nosotros' spy={true} smooth={true}><p>Nosotros</p></Link></li>
                 <li className={styles.listItem}><Link to='servicios' spy={true} smooth={true}><p>Servicios</p></Link></li>
                 <li className={styles.listItem}><Link to='imagenes' spy={true} smooth={true}><p>Imagenes</p></Link></li>
