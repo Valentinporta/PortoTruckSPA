@@ -1,5 +1,4 @@
 .serviciosContainer {
-    /* height: 80vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,6 +14,7 @@
     justify-content: center;
     align-items: center;
     font-size: 60px;
+    text-align: center;
 }
 
 .serviciosText {
@@ -23,7 +23,6 @@
     color: #fff;
     line-height: 2;
     font-size: 20px;
-    /* justify-content: center; */
 }
 
 .serviciosImg {
