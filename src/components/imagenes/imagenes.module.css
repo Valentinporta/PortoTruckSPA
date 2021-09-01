@@ -16,4 +16,15 @@
 
 .galleryTitle {
     font-size: 60px;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .calecitaContainer {
+        width: 90vw;
+    }
+
+    .calecita {
+        width: 90vw;
+    }
 }
