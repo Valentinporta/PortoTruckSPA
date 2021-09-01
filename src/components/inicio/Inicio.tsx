@@ -3,6 +3,7 @@ import Logo from '../logo/Logo';
 import styles from './inicio.module.css';
 
 const Inicio = () => {
+    const year = new Date().getFullYear()
     return (
         <div id='inicio' className={styles.headerContainer}>
             <div className={styles.headerText}>
@@ -11,7 +12,7 @@ const Inicio = () => {
                 </div>
                 <p className={styles.headerTitle}>PortoTruck SRL</p>
                 <div className={styles.headerSubTitle}>
-                    <h2>Más de 10 años prestando servicios de transporte de la más alta cálidad</h2>
+                    <h2>{year - 2005} años prestando servicios de transporte de la más alta cálidad</h2>
                 </div>
             </div>
         </div>
