@@ -1,6 +1,7 @@
 .containerNosotros {
     display: flex;
     flex-direction: column;
+    background: wheat;
 }
 
 .nosotrosInfo {

@@ -1,7 +1,6 @@
 .container {
     display: flex;
     width: 100%;
-    /* max-width: calc(100vw - 17px); */
     height: 80px;
     text-align: center;
     align-items: center;
@@ -16,7 +15,7 @@
 }
 
 .transparentBg {
-    background-color: rgba(231, 227, 227, 0.5);
+    background-color: rgba(231, 227, 227, 0.7);
 }
 
 .navList {
@@ -29,9 +28,11 @@
     cursor: pointer;
     padding-left: 10px;
     user-select: none;
+    font-weight: bold;
 }
 
 .listItem:hover {
+    color: red;
     background-color: #bbb;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
@@ -57,7 +58,7 @@
     }
 
     .navList.active {
-        background-color: rgb(231, 227, 227);
+        background-color: rgba(231, 227, 227, 0.7);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -69,6 +70,9 @@
         padding: 0;
         width: 100%;
         display: table;
+        color: red;
+        text-shadow: 2px 1px 2px black;
+        font-size: 20px;
     }
 
     .listItem:hover {

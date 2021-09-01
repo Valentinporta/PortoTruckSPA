@@ -3,6 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: wheat;
+    padding-bottom: 50px;
 }
 
 .calecita {
