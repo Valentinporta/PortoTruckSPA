@@ -1,14 +1,13 @@
 .header {
     height: 100%;
-    /* max-width: calc(100vw - 17px); */
     width: 100%;
     position: relative;
 }
 
 .leaflet-container {
     width: 100%;
-    /* max-width: calc(100vw - 17px); */
     height: 30vh;
+    z-index: 0;
 }
 
 @media screen and (max-width: 768px) {
