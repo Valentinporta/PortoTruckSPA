@@ -40,10 +40,6 @@
 }
 
 @media screen and (max-width: 800px) {
-    /* .container {
-        position: relative;
-    } */
-
     .navList {
         display: flex;
         flex-direction: column;
@@ -92,5 +88,17 @@
         right: 0;
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 380px) {
+    .logo {
+        transform: translate(0, 50%);
+    }
+}
+
+@media screen and (max-width: 379px) {
+    .logo {
+        display: none;
     }
 }
