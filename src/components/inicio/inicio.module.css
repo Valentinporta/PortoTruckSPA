@@ -1,6 +1,10 @@
 .topImg {
     width: 100vw;
-    height: 91.3vh;
+    height: 91.7vh;
+}
+
+.logo {
+    display: none;
 }
 
 .headerContainer {
@@ -8,8 +12,9 @@
     background: url('../../assets/truck1.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 91.3vh;
+    height: 91.7vh;
     width: 100vw;
+    max-width: calc(100vw - 17px);
     justify-content: left;
     align-items: center;
 }
@@ -28,17 +33,20 @@
 .headerTitle {
     font-size: 100px;
     font-weight: bold;
+    user-select: none;
 }
 
 .headerSubTitle {
     margin-top: 100px;
     width: 25vw;
     text-align: center;
+    user-select: none;
 }
 
 @media screen and (min-width: 800px) and (max-width: 1400px) {
     .headerContainer {
         justify-content: center;
+        width: 100vw;
     }
 
     .headerText {
@@ -54,6 +62,7 @@
 @media screen and (max-width: 800px) {
     .headerContainer {
         justify-content: center;
+        width: 100vw;
     }
 
     .headerText {
@@ -67,5 +76,21 @@
     .headerSubTitle {
         width: 50vw;
         margin: 0;
+    }
+}
+
+@media screen and (max-width: 379px) {
+    .headerContainer {
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .headerText {
+        justify-content: space-between;
+    }
+
+    .logo {
+        display: block;
+        padding-top: 50px;
     }
 }

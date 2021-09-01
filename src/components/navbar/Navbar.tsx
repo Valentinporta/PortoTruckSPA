@@ -33,7 +33,7 @@ const Navbar = () => {
             </div>
 
             <ul className={clicked ? `${styles.navList} ${styles.active}` : styles.navList}>
-                <li className={styles.listItem}><Link to='inicio' spy={true} smooth={true}><p style={{textAlign: 'center'}}>Inicio</p></Link></li>
+                <li className={styles.listItem}><Link to='inicio' spy={true} smooth={true}><p>Inicio</p></Link></li>
                 <li className={styles.listItem}><Link to='nosotros' spy={true} smooth={true}><p>Nosotros</p></Link></li>
                 <li className={styles.listItem}><Link to='servicios' spy={true} smooth={true}><p>Servicios</p></Link></li>
                 <li className={styles.listItem}><Link to='imagenes' spy={true} smooth={true}><p>Imagenes</p></Link></li>
