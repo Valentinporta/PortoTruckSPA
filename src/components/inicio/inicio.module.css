@@ -1,5 +1,5 @@
 .topImg {
-    width: 100vw;
+    width: 100%;
     height: 91.7vh;
 }
 
@@ -13,10 +13,11 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 91.7vh;
-    width: 100vw;
-    max-width: calc(100vw - 17px);
+    width: 100%;
+    /* max-width: calc(100vw - 17px); */
     justify-content: left;
     align-items: center;
+    margin: 0;
 }
 
 .headerText {
