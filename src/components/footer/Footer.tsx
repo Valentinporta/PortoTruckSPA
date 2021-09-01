@@ -3,6 +3,7 @@ import styles from './footer.module.css';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 const Footer = () => {
+    const year = new Date().getFullYear()
     return (
         <div id='contacto' className={styles.footerContainer}>
             <MapContainer center={[-33.692148582048226, -59.64825188247482]} zoom={15} scrollWheelZoom={true}>
@@ -23,6 +24,7 @@ const Footer = () => {
                 <li className={styles.footerListItem}><p>Nextel: 12345678910</p></li>
                 <li className={styles.footerListItem}><p>Dirección: 3 de Febrero 2600, San Pedro Buenos Aires</p></li>
             </ul>
+            <p><i className='far fa-copyright'></i> 2005 - {year} Porto Truck SRL</p>
         </div>
     )
 };

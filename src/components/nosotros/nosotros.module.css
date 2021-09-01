@@ -23,3 +23,10 @@
         align-items: center;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .nosotrosInfo {
+        font-size: 30px;
+        line-height: 1;
+    }
+}
