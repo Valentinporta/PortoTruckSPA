@@ -12,15 +12,15 @@ const Tarjeta = (props: InterfazTarjeta) => {
         <div className={styles.containerTarj}>
 
             <div>
-                <img src={props.icon} style={{height: '80px'}} alt='tarjeta'/>
+                <img src={props.icon} className={styles.icon} alt='tarjeta'/>
             </div>
 
             <div>
-                <h2>{props.title}</h2>
+                <h2 className={styles.cardTitle}>{props.title}</h2>
             </div>
 
             <div>
-                <p>{props.text}</p>
+                <p className={styles.cardText}>{props.text}</p>
             </div>
 
         </div>

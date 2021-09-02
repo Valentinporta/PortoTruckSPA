@@ -13,6 +13,7 @@ const Nosotros = () => {
     
     return (
         <div id='nosotros' className={styles.containerNosotros}>
+            <p className={styles.nosotrosTitle}>Sobre nosotros</p>
             <p className={styles.nosotrosInfo}>Somos una empresa de transporte con mas de {year - 2005} años en el rubro con sede en San Pedro, Buenos Aires. Realizamos viajes para todo tipo de cargas y para todo el país.</p>
             <div className={styles.tarjetas}>
                 <Tarjeta icon={truck} title='Cargas generales' text={cargasGrales}/>

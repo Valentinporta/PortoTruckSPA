@@ -5,7 +5,7 @@ import styles from './inicio.module.css';
 const Inicio = () => {
     const year = new Date().getFullYear()
     return (
-        <div id='inicio' className={styles.headerContainer}>
+        <div className={styles.headerContainer}>
             <div className={styles.headerText}>
                 <div className={styles.logo}>
                     <Logo />

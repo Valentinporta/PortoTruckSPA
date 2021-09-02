@@ -8,7 +8,7 @@
 }
 
 .footerTitle {
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .footerList {
@@ -16,6 +16,8 @@
     list-style: none;
     justify-content: space-between;
     width: 75vw;
+    border-top: 1px solid white;
+    margin-top: 100px;
 }
 
 .footerListItem {
@@ -25,5 +27,16 @@
 @media screen and (max-width: 1300px) {
     .footerList {
         flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 1800px) and (min-height: 1000px) {
+
+    .footerList {
+        width: 85vw;
+    }
+
+    .footerListItem {
+        font-size: 30px;
     }
 }
