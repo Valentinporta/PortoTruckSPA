@@ -1,4 +1,4 @@
-import React, {ChangeEventHandler, MouseEvent, useState} from 'react';
+import React, {useState} from 'react';
 import emailjs from 'emailjs-com';
 import styles from './contactForm.module.css'
 
