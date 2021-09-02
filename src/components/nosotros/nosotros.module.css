@@ -2,11 +2,17 @@
     display: flex;
     flex-direction: column;
     background: wheat;
+    text-align: center;
+    align-items: center;
+}
+
+.nosotrosTitle {
+    font-size: 60px;
 }
 
 .nosotrosInfo {
     font-size: 50px;
-    padding: 0 30px;
+    width: 95vw;
 }
 
 .tarjetas {
@@ -28,6 +34,6 @@
 @media screen and (max-width: 500px) {
     .nosotrosInfo {
         font-size: 30px;
-        line-height: 1;
+        line-height: 1.2;
     }
 }

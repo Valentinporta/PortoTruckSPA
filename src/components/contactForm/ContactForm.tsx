@@ -40,22 +40,22 @@ const ContactForm = () => {
             </label>
                 <input type='text' placeholder='Nombre...' name='nombre' className={styles.input} />
 
-            <label>
+            <label className={styles.label}>
                 Asunto:
             </label>
                 <input type='text' placeholder='Asunto...' name='asunto' className={styles.input} />
 
-            <label>
+            <label className={styles.label}>
                 Correo:
             </label>
                 <input type='email' placeholder='Correo...' name='email' className={styles.input} />
 
-            <label>
+            <label className={styles.label}>
                 Mensaje:
             </label>
                 <textarea name='mensaje' onChange={handleChange} value={input.mensaje} placeholder='Envianos tu consulta...' className={styles.textarea} />
             
-            <input type='submit' value='Enviar' />
+            <input className={styles.btn} type='submit' value='Enviar' />
 
         </form>
     )

@@ -2,9 +2,41 @@
     width: 20vw;
 }
 
+.icon {
+    height: 80px
+}
+
 @media screen and (max-width: 800px) {
     .containerTarj {
         width: 50vw;
         padding-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .containerTarj {
+        width: 30vw;
+    }
+
+    .cardText {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1800px) and (min-height: 1000px) {
+    .containerTarj {
+        width: 30vw;
+    }
+
+    .icon {
+        height: 200px;
+    }
+
+    .cardTitle {
+        font-size: 45px;
+    }
+
+    .cardText {
+        font-size: 30px;
     }
 }

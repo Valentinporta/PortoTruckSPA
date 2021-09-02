@@ -11,8 +11,8 @@ const Imagenes = () => {
 
     return (
         <div id='imagenes' className={styles.galleryContainer}>
-            <p className={styles.galleryTitle}>GALERIA DE IMAGENES</p>
-            <Carousel className={styles.calecitaContainer}>
+            <p className={styles.galleryTitle}>Galería de imágenes</p>
+            <Carousel>
                 {
                     imagenes.map( image => (
                     <div key={image} className={styles.calecitaContainer}>

@@ -21,10 +21,10 @@ const Footer = () => {
             <p className={styles.footerTitle}>Contactanos!</p>
             <ContactForm />
             <ul className={styles.footerList}>
-                <li className={styles.footerListItem}><p>Celular: 12345678910</p></li>
-                <li className={styles.footerListItem}><p>Email: portotrucksrl@gmail.com</p></li>
-                <li className={styles.footerListItem}><p>Nextel: 12345678910</p></li>
-                <li className={styles.footerListItem}><p>Dirección: 3 de Febrero 2600, San Pedro Buenos Aires</p></li>
+                <li className={styles.footerListItem}><p>Celular:<br />12345678910</p></li>
+                <li className={styles.footerListItem}><p>Email:<br />portotrucksrl@gmail.com</p></li>
+                <li className={styles.footerListItem}><p>Nextel:<br />12345678910</p></li>
+                <li className={styles.footerListItem}><p>Dirección:<br />3 de Febrero 2600, San Pedro Buenos Aires</p></li>
             </ul>
             <p><i className='far fa-copyright'></i> 2005 - {year} Porto Truck SRL</p>
         </div>
