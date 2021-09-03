@@ -3,7 +3,21 @@
 }
 
 .icon {
-    height: 80px
+    height: clamp(9rem, 1rem + 10vw, 10rem);
+}
+
+.cardText {
+    font-size: clamp(1.5rem, 1rem + 1vw ,2rem);
+}
+
+.cardTitle {
+    font-size: clamp(1rem, 1rem + 2vw, 2.5rem);
+}
+
+@media screen and (max-width: 500px) {
+    .containerTarj {
+        width: 100vw;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -26,10 +40,6 @@
 @media screen and (min-width: 1800px) and (min-height: 1000px) {
     .containerTarj {
         width: 30vw;
-    }
-
-    .icon {
-        height: 200px;
     }
 
     .cardTitle {

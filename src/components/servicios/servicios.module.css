@@ -5,12 +5,13 @@
     height: 100%;
     width: 100%;
     background-color: black;
+    padding-bottom: 80px;
 }
 
 .serviciosTitle {
     display: flex;
     flex-direction: column;
-    color: #fff;
+    color: rgb(231, 227, 227);
     justify-content: center;
     align-items: center;
     font-size: 60px;
@@ -21,7 +22,7 @@
 .serviciosText {
     display: flex;
     text-align: left;
-    color: #fff;
+    color: rgb(231, 227, 227);
     line-height: 2;
     font-size: 20px;
     justify-content: space-evenly;
