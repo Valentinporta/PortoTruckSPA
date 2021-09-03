@@ -1,7 +1,7 @@
 .containerNosotros {
     display: flex;
     flex-direction: column;
-    background: wheat;
+    background-color: rgb(231, 227, 227);
     text-align: center;
     align-items: center;
 }
